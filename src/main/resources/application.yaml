@@ -1,0 +1,12 @@
+spring:
+  kafka:
+    bootstrap-servers: 10.95.43.167:9092
+
+app:
+  topic: test
+
+logging:
+  level:
+    root: ERROR
+    org.springframework.web: ERROR
+    com.example: DEBUG
